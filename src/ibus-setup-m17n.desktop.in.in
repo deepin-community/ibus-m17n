@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=IBus M17N Setup
+Comment=Set up IBus M17N engine
+Exec=@libexecdir@/ibus-setup-m17n
+NoDisplay=true
+Type=Application
+StartupNotify=true

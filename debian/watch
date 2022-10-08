@@ -1,0 +1,4 @@
+version=3
+opts=filenamemangle=s#.*/archive/([\d.]+\.tar\.[gx]z)#ibus-m17n-$1# \
+https://github.com/ibus/ibus-m17n/releases \
+/ibus/ibus-m17n/archive/([\d.]+)\.tar\.[gx]z debian uupdate

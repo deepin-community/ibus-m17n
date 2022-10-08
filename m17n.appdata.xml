@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="inputmethod">
+  <id>m17n.xml</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>Ibus M17N</name>
+  <summary>M17N input engine for IBus</summary>
+  <description>
+    <p>
+      This multilingualization input method allows entering many
+      languages using the input methods from the m17n library.
+    </p>
+  </description>
+  <project_license>GPL-2</project_license>
+  <developer_name>Parag Nemade, Mike FABIAN</developer_name>
+  <update_contact>pnemade@redhat.com, mfabian@redhat.com</update_contact>
+  <url type="homepage">https://github.com/ibus/ibus-m17n</url>
+  <url type="bugtracker">https://github.com/ibus/ibus-m17n/issues</url>
+  <url type="help">https://github.com/ibus/ibus-m17n</url>
+  <releases>
+    <release version="1.4.3" date="2020-06-20" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+        <ul>
+          <li>
+            New translation: es (Spanish) 100%
+          </li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.4.2" date="2020-01-20" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+        <ul>
+          <li>
+            New translations: tr (Turkish) 100%, uk (Ukrainian) 100%,
+            id (Indonesian) 100%, ja_JP (Japanese) 100%.
+          </li>
+          <li>
+            Translation updates: zh_CN, pt_BR
+          </li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.4.1" date="2018-10-25" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+        <ul>
+          <li>
+            Fix for google code issue 1781 in ibus-m17n for kk
+            (Correct symbols for kk input methods)
+          </li>
+          <li>
+            Add German translations
+          </li>
+          <li>
+            Add m17n.appdata.xml
+          </li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.4.0" date="2018-10-24" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+        <ul>
+          <li>
+            Migrate from IBusConfig to GSettings. Resolves:
+            https://github.com/ibus/ibus-m17n/issues/3
+          </li>
+          <li>
+            Add an option to emulate US layout
+          </li>
+          <li>
+            Fix preedit background colour and underlining
+          </li>
+          <li>
+            Switch off preedit background and foreground correctly if
+            disabled in the setup tool
+          </li>
+          <li>
+            Other minor bug fixes.
+          </li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <translation type="gettext">ibus-m17n</translation>
+</component>
+
